@@ -1,0 +1,9 @@
+{
+	admin off
+	frankenphp
+}
+
+:80 {
+	root * /app/public
+	php_server
+}
